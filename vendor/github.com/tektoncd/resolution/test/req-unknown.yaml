@@ -1,0 +1,11 @@
+# This resolution request uses a resolver of unknown type
+# in order to test global timeout behaviour.
+kind: ResolutionRequest
+apiVersion: resolution.tekton.dev/v1alpha1
+metadata:
+  name: fetch-catalog-task
+  labels:
+    resolution.tekton.dev/type: unknown
+spec:
+  params:
+    foo: bar
