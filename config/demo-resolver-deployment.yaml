@@ -38,7 +38,7 @@ spec:
       serviceAccountName: resolver
       containers:
       - name: controller
-        image: ko://github.com/tektoncd/resolution/docs/resolver-template/cmd/demoresolver
+        image: ko://github.com/chuangw6/my-resolver/tree/main/cmd/demoresolver
         resources:
           requests:
             cpu: 100m
